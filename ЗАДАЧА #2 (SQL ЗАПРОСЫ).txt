@@ -1,0 +1,4 @@
+SELECT *
+FROM users AS u
+INNER JOIN objects AS o
+ON u.object_id = o.id
